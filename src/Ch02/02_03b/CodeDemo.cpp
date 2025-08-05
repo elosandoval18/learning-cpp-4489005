@@ -16,5 +16,17 @@ int main(){
     std::cout << "a = " << a << std::endl;
     std::cout << "b = " << b << std::endl;
     std::cout << "Flag = " << my_flag << std::endl;
+ 
+    my_flag = true;
+    std::cout << "a + b = " << a + b << std::endl;
+    std::cout << "b - a = " << b - a  << std::endl;
+    std::cout << "Flag = " << my_flag << std::endl;
+
+    unsigned int positive;
+    positive = b - a;
+    std::cout << "b - a (unsigned) = " << positive << std::endl; //instead of giving you 2 as a result, it does give you 2 but in binary, so you need to be very careful.
+
+    std::cout << std::endl << std::endl;
+
     return (0);
 }
